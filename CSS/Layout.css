@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "Circular";
+    src: url("file://Users/fam.sihlen/Dropbox/Learn2Code/Front End Dev - Udacity/Project_Blog_Website/Fonts/lineto-circular-pro-book.ttf");
+}
+
+
+ul .about-page {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul .writing {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul .playing {
+    text-decoration: none;
+    color: inherit;
+}
+
+.Circular {
+    font-family: "Circular";
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+:root {
+    --clr-box-shadow: #dfe2e1;
+    --clr-popular: #46ab7a;
+    --clr-instrumental: #8b46ab;
+    --clr-rhythm: #ece64e;
+    --clr-audio: #54a3ff;
+}
