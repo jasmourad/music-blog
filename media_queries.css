@@ -1,0 +1,29 @@
+@media only screen and (max-width: 1100px)
+{
+
+    .main-blog {
+        display: flex;
+        position:relative;
+    }
+
+    .subscriber-form-section {
+        display: none;
+    }
+    .blog-header {
+       width: 100%;
+    }
+
+    .menu-items {
+        display: none; 
+    }
+   
+    }
+    @media only screen and (max-width: 750px)
+    {
+    
+        .main-blog {
+            display: none;
+        
+  
+       
+        }
