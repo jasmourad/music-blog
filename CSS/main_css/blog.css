@@ -1,0 +1,217 @@
+
+/* @import url('/Users/fam.sihlen/Dropbox/Learn2Code/Front End Dev - Udacity/Project_Blog_Website/CSS/media_queries.css'); */
+
+@media only screen and (max-width: 1100px)
+{
+   footer .copyright {
+       display: none;
+   }
+
+   footer .social {
+    display: none;
+}
+    
+}
+
+
+    }
+ 
+@font-face {
+    font-family: "Circular";
+    src: url("file://Users/fam.sihlen/Dropbox/Learn2Code/Front End Dev - Udacity/Project_Blog_Website/Fonts/lineto-circular-pro-book.ttf");
+}
+
+@media only screen and (max-width: 1000px){
+
+    .container{  
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr 1.4fr 1.3fr;
+        grid-template-areas: 
+    "nav"
+    "sidebar"
+    "main"
+    "content"
+    "aside"
+    "footer";
+    }
+}
+
+
+
+
+
+.Circular {
+    font-family: "Circular";
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 0.2fr 1.5fr 0.5fr;
+    grid-template-rows: 0.1fr 0.8fr 2fr 0,3fr;
+    grid-template-areas: 
+    "nav nav nav"
+    "Sidebar main Aside"
+    "Sidebar Content1 Aside"
+    "footer footer footer";
+    font-family: "Circular";
+    grid-gap: 0.2rem;
+    text-align: center;
+}
+
+    button {
+    float: right;
+padding-top: 1.5rem;
+background: none;
+border-style: none;
+font-size: 20px;
+}
+
+nav {
+    /* background: cyan; */
+    grid-area: nav;
+ height: 5rem;
+ padding-right: 5rem;
+}
+
+.logo-home {
+    position: absolute;
+    float: start;
+    padding-top: 1rem;
+    padding-left: 2rem;
+}
+
+
+
+main {
+    /* background: darkcyan; */
+    grid-area: main;
+
+}
+
+.main-headers {
+    float: center;
+}
+
+.main-headers img{
+max-height: 70%;
+max-width: 70%;
+
+
+}
+
+.card-profile {
+    padding-top: 1rem;
+    float: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+  justify-content: center;
+
+}
+
+.profile-img {
+width: 80px;
+height: 80px;
+object-fit: contain;
+}
+
+.author {
+    margin-left: 1rem;
+  font-size: 17px;
+
+}  
+.profile-name {
+    font-size: 15px;
+    margin-left: 1rem;
+}
+
+.profile-followers {
+    margin-left: 1rem;
+    font-size: 0.9rem;
+    color: rgb(100, 98, 98);
+}
+
+#Sidebar{
+    /* background-color: darkmagenta; */
+    grid-area: Sidebar;
+    height: 3rem;
+    width: 10rem;
+    margin: auto;
+
+}
+.sidebar {
+display: inline;
+padding-left: 2rem;
+}
+
+hr{
+    color: rgb(68, 66, 66);
+
+}
+
+#Aside {
+    /* background: greenyellow; */
+    grid-area: Aside;
+    padding-right: 1rem;
+    padding-top: 62rem;
+
+
+}
+
+#Content1 {
+    /* background: darkslategray; */
+    padding-left: 3rem;
+    grid-area: Content1;
+    text-align: left;
+}
+
+footer {
+    /* background: firebrick; */
+    grid-area: footer;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-right: 200px;
+    
+}
+
+ul li {
+    display: inline;
+    justify-content: center;
+
+}
+
+.social {
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social img {
+    height: 20px;
+    width: 20px;
+}
+
+.copyright {
+    align-self: auto;       
+    justify-content: center;
+}
+
+aside {
+    width: 80%;
+    margin-left: 2rem;
+    float: center;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+
+aside > p {
+    margin: 2rem;
+}
+
+ 

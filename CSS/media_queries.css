@@ -1,0 +1,53 @@
+@media only screen and (max-width: 1600px)
+{
+
+    .main-blog {
+        display: flex;
+        position:relative;
+    }
+
+   
+    .blog-header {
+       width: 100%;
+    }
+
+    .menu-items {
+       display: none;
+    }
+   
+    }
+    @media only screen and (max-width: 1100px)
+{
+
+    .menu-items {
+        display: none; 
+    }
+
+    .subscriber-form-section {
+        display: none;
+    }
+   
+    }
+    @media only screen and (max-width: 750px)
+    {
+    
+        .main-blog {
+            display: none;
+        
+  
+       
+        }
+
+        //*Media Query imported to blog-post page, disable social accounts and name when screen is too small*//
+
+        @media only screen and (max-width: 1100px)
+        {
+        .copyright {
+        
+            display: none;
+        }
+        .copyright {
+        
+            display: none;
+        }
+            }
